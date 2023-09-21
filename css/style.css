@@ -8,6 +8,7 @@
 body{
 	
 	font-family: 'Fredoka', sans-serif;
+	background-color: white;
 }
 
 /* Main CSS */
@@ -32,9 +33,12 @@ main > p{
 .col{
 	color: white;
 	background-color: #0F0E17;
-	width: 30%;
+	width: calc(100% / 3);
 	float: left;
-	margin: 30px 15px;
+	margin: 30px 0px;
+	padding-left: 16px;
+	background-clip: content-box;
+	box-shadow: white;
 }
 
 img.float-left{
