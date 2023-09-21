@@ -1,0 +1,22 @@
+/* CSS General Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	
+	font-family: 'Fredoka', sans-serif;
+}
+
+/* Main CSS */
+.content{
+	width: 80%;
+	margin: auto;
+}
+
+
+.col{
+	border: solid;
+}
