@@ -19,4 +19,21 @@ body{
 
 .col{
 	border: solid;
+	width: 400px;
+	float: left;
+}
+
+img.float-left{
+	float: left;
+	height: 150px;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.col h2{
+	font-weight: 800px;
 }
