@@ -36,7 +36,7 @@ main > p{
 	width: calc(100% / 3);
 	float: left;
 	margin: 30px 0px;
-	padding-left: 16px;
+	padding: 0 16px;
 	background-clip: content-box;
 	box-shadow: white;
 }
